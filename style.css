@@ -10,12 +10,25 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ol {
-    display: grid;
+header{
+    display: flex;
     justify-content: center;
-    height: 100vh;
-    align-items: center;
+    margin-top: 5vh;
+    font-size: 5rem;
 }
-ol li {
-    cursor: pointer;
+
+button{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
 }
